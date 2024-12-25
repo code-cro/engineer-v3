@@ -1,0 +1,26 @@
+{
+    "name": "engineer-v3",
+    "displayName": "Engineer V3",
+    "description": "Dark theme for Visual Studio Code.",
+    "version": "0.1.0",
+    "publisher": "<josiphaboic@gmail.com>",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "categories": [
+      "Themes"
+    ],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Engineer V3",
+          "uiTheme": "vs-dark",
+          "path": "./themes/engineer.json"
+        }
+      ]
+    },
+    "icon": "icons/icon.png",
+    "scripts": {
+      "vscode:prepublish": "vsce package"
+    }
+  }
